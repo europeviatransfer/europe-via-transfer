@@ -15,7 +15,7 @@ export default function About() {
               <div className="relative aspect-[4/5] overflow-hidden">
                 <img
                   src={aboutImage}
-                  alt="Europe Via Transfer chauffeur opening the door of a luxury vehicle for a guest"
+                  alt="Луксозен частен трансфер Europe Via Transfer — шофьор отваря вратата на премиум автомобил за гост"
                   className="h-full w-full object-cover"
                   loading="lazy"
                 />

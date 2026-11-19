@@ -42,7 +42,7 @@ export default function Destinations() {
                   <div className="relative h-56 overflow-hidden">
                     <img
                       src={img}
-                      alt={name}
+                      alt={`${name} — частен трансфер Europe Via Transfer от София`}
                       className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />

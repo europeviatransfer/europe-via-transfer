@@ -1,8 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://europeviatransfer.bg/sitemap.xml
-
-# Crawl-delay
-Crawl-delay: 1
+Sitemap: https://europeviatransfer.com/sitemap.xml

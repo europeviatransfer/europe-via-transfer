@@ -35,18 +35,18 @@ export default function Routes() {
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <img
                     src={route.image}
-                    alt={`${t('routes.from')} ↔ ${t(route.destKey)}`}
+                    alt={`Частен трансфер Europe Via Transfer: ${t('routes.from')} ↔ ${t(route.destKey)}`}
                     className="h-full w-full object-cover transition-transform duration-1000 ease-luxury group-hover:scale-110"
                     loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-ink-900/30 to-transparent" />
                   <div className="absolute bottom-4 left-5 right-5 flex items-end justify-between">
                     <div>
-                      <p className="font-serif text-xl text-white">
+                      <h3 className="font-serif text-xl text-white">
                         {t('routes.from')}
                         <span className="mx-2 text-gold-500">↔</span>
                         {t(route.destKey)}
-                      </p>
+                      </h3>
                       <p className="mt-1 flex items-center gap-1.5 text-xs text-mist-300">
                         <Clock className="h-3.5 w-3.5" />
                         {duration} {t('routes.duration')}

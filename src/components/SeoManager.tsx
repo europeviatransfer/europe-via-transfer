@@ -3,14 +3,16 @@ import { useI18n } from '../i18n/context'
 
 const seoData = {
   bg: {
-    title: 'Europe Via Transfer — Частни трансфери и превози | Летищни трансфери България & Балканите',
-    description: 'Europe Via Transfer — премиум частни трансфери с професионален шофьор в България и на Балканите. Летищни трансфери, междуградски пътувания, VIP и корпоративни chauffeur услуги.',
-    keywords: 'Europe Via Transfer, частни трансфери, летищни трансфери, частни превози, трансфер София, трансфер летище София, VIP трансфер, междуградски трансфери, трансгранични трансфери, private transfers Bulgaria, chauffeur Bulgaria',
+    title: 'Europe Via Transfer — Частни трансфери и превози в България и Балканите | Private Transfers',
+    description: 'Europe Via Transfer — частни трансфери, летищни трансфери София и VIP превози с професионален шофьор. Private airport transfers Bulgaria & chauffeur service Balkans.',
+    keywords: 'Europe Via Transfer, частни трансфери, летищни трансфери София, VIP превози, private transfers Bulgaria, airport transfers Sofia, chauffeur service Balkans, трансфер летище София, междуградски трансфери, трансгранични трансфери',
+    canonical: 'https://europeviatransfer.com/',
   },
   en: {
-    title: 'Europe Via Transfer — Private Transfers & Chauffeur Services | Bulgaria & the Balkans',
-    description: 'Europe Via Transfer — premium private transfers with a professional chauffeur across Bulgaria and the Balkans. Airport transfers, intercity travel, VIP and corporate chauffeur services.',
-    keywords: 'Europe Via Transfer, private transfers Bulgaria, airport transfers Sofia, chauffeur services Bulgaria, private transfers Balkans, VIP transfer Bulgaria, intercity transfers, cross-border transfers, Sofia airport transfer, Bansko transfer, Plovdiv transfer, Thessaloniki transfer',
+    title: 'Europe Via Transfer — Private Transfers & Airport Transfers in Bulgaria & the Balkans',
+    description: 'Europe Via Transfer — private transfers, Sofia airport transfers and VIP chauffeur service across Bulgaria and the Balkans. Частни трансфери и летищни трансфери с професионален шофьор.',
+    keywords: 'Europe Via Transfer, private transfers Bulgaria, airport transfers Sofia, chauffeur service Balkans, VIP transfers Bulgaria, intercity transfers, cross-border transfers, Sofia airport transfer, Bansko transfer, Plovdiv transfer, Thessaloniki transfer',
+    canonical: 'https://europeviatransfer.com/en/',
   },
 }
 
@@ -24,6 +26,16 @@ function setMeta(name: string, content: string, attr: 'name' | 'property' = 'nam
   tag.setAttribute('content', content)
 }
 
+function setLink(rel: string, href: string) {
+  let link = document.head.querySelector(`link[rel="${rel}"]`) as HTMLLinkElement | null
+  if (!link) {
+    link = document.createElement('link')
+    link.setAttribute('rel', rel)
+    document.head.appendChild(link)
+  }
+  link.setAttribute('href', href)
+}
+
 export default function SeoManager() {
   const { locale } = useI18n()
 
@@ -35,8 +47,10 @@ export default function SeoManager() {
     setMeta('og:title', data.title, 'property')
     setMeta('og:description', data.description, 'property')
     setMeta('og:locale', locale === 'bg' ? 'bg_BG' : 'en_US', 'property')
+    setMeta('og:url', data.canonical, 'property')
     setMeta('twitter:title', data.title)
     setMeta('twitter:description', data.description)
+    setLink('canonical', data.canonical)
     document.documentElement.lang = locale
   }, [locale])
 
