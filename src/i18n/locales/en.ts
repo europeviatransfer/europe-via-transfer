@@ -2,7 +2,7 @@ import type { Translation } from '../types'
 
 export const en: Translation = {
   meta: {
-    siteName: 'Krasolio',
+    siteName: 'Europe Via Transfer',
     tagline: 'Luxury Private Transfers & Chauffeur Services',
   },
   nav: {
@@ -157,7 +157,7 @@ export const en: Translation = {
     },
   },
   why: {
-    eyebrow: 'Why Krasolio',
+    eyebrow: 'Why Europe Via Transfer',
     title: 'The details that define the experience',
     subtitle: 'We do not sell kilometres. We offer time, peace of mind and a standard our clients expect on every journey.',
     items: {
@@ -186,9 +186,9 @@ export const en: Translation = {
     },
   },
   about: {
-    eyebrow: 'About Krasolio',
+    eyebrow: 'About Europe Via Transfer',
     title: 'Created for those who do not compromise on their time',
-    p1: 'Krasolio was founded with one clear purpose — to bring Balkan standards to premium private transfers in Bulgaria. Not taxi services, nor intermediaries. Our own fleet, trained chauffeurs and an attitude our clients recognise from the very first meeting.',
+    p1: 'Europe Via Transfer was founded with one clear purpose — to bring Balkan standards to premium private transfers in Bulgaria. Not taxi services, nor intermediaries. Our own fleet, trained chauffeurs and an attitude our clients recognise from the very first meeting.',
     p2: 'We serve executives, families, diplomats and guests of five-star hotels. Our promise is simple: a journey without stress, without delay and without compromise. From the airport to the mountain resort, from a corporate meeting to a wedding day — we handle the logistics so you can focus on what matters to you.',
     stats: {
       years: 'Years of experience',
@@ -283,7 +283,7 @@ export const en: Translation = {
     sections: {
       intro: {
         title: 'Introduction',
-        body: 'This Cookie Policy explains how Krasolio Transfers uses cookies and similar technologies on our website. We use cookies to ensure the proper functioning of the site, to analyze traffic, and to improve your user experience.',
+        body: 'This Cookie Policy explains how Europe Via Transfer uses cookies and similar technologies on our website. We use cookies to ensure the proper functioning of the site, to analyze traffic, and to improve your user experience.',
       },
       whatAreCookies: {
         title: 'What are cookies?',
@@ -339,11 +339,11 @@ export const en: Translation = {
     sections: {
       intro: {
         title: 'Introduction',
-        body: 'Krasolio Transfers respects your privacy and is committed to protecting the personal data you share with us. This Privacy Policy explains what data we collect, why and how we use it, and your rights under the General Data Protection Regulation (GDPR).',
+        body: 'Europe Via Transfer respects your privacy and is committed to protecting the personal data you share with us. This Privacy Policy explains what data we collect, why and how we use it, and your rights under the General Data Protection Regulation (GDPR).',
       },
       dataController: {
         title: 'Data controller',
-        body: 'The data controller is Krasolio Transfers. For any questions regarding the processing of personal data, you can contact us through the details provided at the end of this document.',
+        body: 'The data controller is Europe Via Transfer. For any questions regarding the processing of personal data, you can contact us through the details provided at the end of this document.',
       },
       dataCollected: {
         title: 'Data we collect',
@@ -403,11 +403,11 @@ export const en: Translation = {
     sections: {
       intro: {
         title: 'Introduction',
-        body: 'These Terms & Conditions govern the use of the transfer services provided by Krasolio Transfers and the relationship between Krasolio Transfers and its clients. By making a booking or using the services, you accept these Terms & Conditions.',
+        body: 'These Terms & Conditions govern the use of the transfer services provided by Europe Via Transfer and the relationship between Europe Via Transfer and its clients. By making a booking or using the services, you accept these Terms & Conditions.',
       },
       definitions: {
         title: 'Definitions',
-        body: '"We" / "Krasolio" means Krasolio Transfers. "Client" / "You" means the person requesting or using a transfer service. "Service" means a chauffeured transfer provided by us. "Booking" means the confirmed request for a service.',
+        body: '"We" / "Europe Via Transfer" means Europe Via Transfer. "Client" / "You" means the person requesting or using a transfer service. "Service" means a chauffeured transfer provided by us. "Booking" means the confirmed request for a service.',
       },
       services: {
         title: 'Services provided',
@@ -439,7 +439,7 @@ export const en: Translation = {
       },
       intellectualProperty: {
         title: 'Intellectual property',
-        body: 'All content on this site (texts, images, logo) is the property of Krasolio Transfers and is protected by intellectual property laws. Reproduction without our written consent is prohibited.',
+        body: 'All content on this site (texts, images, logo) is the property of Europe Via Transfer and is protected by intellectual property laws. Reproduction without our written consent is prohibited.',
       },
       governingLaw: {
         title: 'Governing law',
