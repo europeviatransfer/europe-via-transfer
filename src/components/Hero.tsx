@@ -24,7 +24,7 @@ export default function Hero() {
       <div className="absolute inset-0">
         <motion.img
           src={heroImage}
-          alt="Luxury chauffeur vehicle awaiting a guest in front of a five-star hotel at night"
+          alt="Europe Via Transfer — частни трансфери с луксозен автомобил и професионален шофьор в България"
           className="h-full w-full object-cover"
           initial={{ scale: 1.12 }}
           animate={{ scale: 1 }}

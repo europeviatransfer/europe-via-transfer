@@ -3,12 +3,14 @@ import { useI18n } from '../i18n/context'
 
 const seoData = {
   bg: {
-    title: 'Europe Via Transfer — Луксозни частни трансфери & chauffeur услуги | България & Балканите',
-    description: 'Europe Via Transfer (Юръп Виа Трансфер ООД) — премиум частни трансфери с професионален шофьор в България и на Балканите. Летищни трансфери, междуградски пътувания, VIP и корпоративни chauffeur услуги.',
+    title: 'Europe Via Transfer — Частни трансфери и превози | Летищни трансфери България & Балканите',
+    description: 'Europe Via Transfer — премиум частни трансфери с професионален шофьор в България и на Балканите. Летищни трансфери, междуградски пътувания, VIP и корпоративни chauffeur услуги.',
+    keywords: 'Europe Via Transfer, частни трансфери, летищни трансфери, частни превози, трансфер София, трансфер летище София, VIP трансфер, междуградски трансфери, трансгранични трансфери, private transfers Bulgaria, chauffeur Bulgaria',
   },
   en: {
-    title: 'Europe Via Transfer — Luxury Private Transfers & Chauffeur Services | Bulgaria & the Balkans',
-    description: 'Europe Via Transfer Ltd. — premium private transfers with a professional chauffeur across Bulgaria and the Balkans. Airport transfers, intercity travel, VIP and corporate chauffeur services.',
+    title: 'Europe Via Transfer — Private Transfers & Chauffeur Services | Bulgaria & the Balkans',
+    description: 'Europe Via Transfer — premium private transfers with a professional chauffeur across Bulgaria and the Balkans. Airport transfers, intercity travel, VIP and corporate chauffeur services.',
+    keywords: 'Europe Via Transfer, private transfers Bulgaria, airport transfers Sofia, chauffeur services Bulgaria, private transfers Balkans, VIP transfer Bulgaria, intercity transfers, cross-border transfers, Sofia airport transfer, Bansko transfer, Plovdiv transfer, Thessaloniki transfer',
   },
 }
 
@@ -29,6 +31,7 @@ export default function SeoManager() {
     const data = seoData[locale]
     document.title = data.title
     setMeta('description', data.description)
+    setMeta('keywords', data.keywords)
     setMeta('og:title', data.title, 'property')
     setMeta('og:description', data.description, 'property')
     setMeta('og:locale', locale === 'bg' ? 'bg_BG' : 'en_US', 'property')

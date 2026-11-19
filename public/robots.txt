@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://voyager-travel.bg/sitemap.xml
+# Sitemap
+Sitemap: https://europeviatransfer.bg/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1

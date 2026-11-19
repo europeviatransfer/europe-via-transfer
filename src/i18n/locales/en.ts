@@ -19,7 +19,7 @@ export const en: Translation = {
   },
   hero: {
     eyebrow: 'Private Chauffeur Services · Bulgaria & the Balkans',
-    title: 'Luxury Private Transfers Across Bulgaria & the Balkans',
+    title: 'Europe Via Transfer — Private Transfers & Airport Transfers Across Bulgaria & the Balkans',
     subtitle: 'Premium private transfers with a professional chauffeur. Airport transfers. Intercity travel. VIP service. Corporate clients.',
     reserve: 'Reserve Transfer',
     quote: 'Get Quote',
@@ -27,7 +27,7 @@ export const en: Translation = {
   },
   booking: {
     eyebrow: 'Reservation',
-    title: 'Reserve Your Transfer',
+    title: 'Reserve Your Private Transfer with Europe Via Transfer',
     subtitle: 'Complete the form and our team will contact you to confirm the quote.',
     fields: {
       name: 'Full name',
@@ -89,7 +89,7 @@ export const en: Translation = {
   },
   services: {
     eyebrow: 'Services',
-    title: 'Chauffeur services for every occasion',
+    title: 'Private Transfers & Chauffeur Services for Every Occasion',
     subtitle: 'From airport meet-and-greet to special occasions — every journey is delivered with attention to detail.',
     learnMore: 'Learn more',
     items: {
@@ -129,7 +129,7 @@ export const en: Translation = {
   },
   routes: {
     eyebrow: 'Routes',
-    title: 'Popular Destinations',
+    title: 'Popular Destinations for Private Transfers from Sofia',
     subtitle: 'Proven routes with a fixed premium fare. Every journey planned for your peace of mind.',
     duration: 'drive',
     from: 'Sofia',
@@ -158,7 +158,7 @@ export const en: Translation = {
   },
   why: {
     eyebrow: 'Why Europe Via Transfer',
-    title: 'The details that define the experience',
+    title: 'Why Choose Europe Via Transfer for Your Private Transfers',
     subtitle: 'We do not sell kilometres. We offer time, peace of mind and a standard our clients expect on every journey.',
     items: {
       punctuality: 'Punctuality',
@@ -187,7 +187,7 @@ export const en: Translation = {
   },
   about: {
     eyebrow: 'About Europe Via Transfer',
-    title: 'Created for those who do not compromise on their time',
+    title: 'About Europe Via Transfer — Private Transfers Without Compromise',
     p1: 'Europe Via Transfer was founded with one clear purpose — to bring Balkan standards to premium private transfers in Bulgaria. Not taxi services, nor intermediaries. Our own fleet, trained chauffeurs and an attitude our clients recognise from the very first meeting.',
     p2: 'We serve executives, families, diplomats and guests of five-star hotels. Our promise is simple: a journey without stress, without delay and without compromise. From the airport to the mountain resort, from a corporate meeting to a wedding day — we handle the logistics so you can focus on what matters to you.',
     stats: {
@@ -205,19 +205,19 @@ export const en: Translation = {
   },
   testimonials: {
     eyebrow: 'Testimonials',
-    title: 'Trust built over years',
+    title: 'Reviews from Europe Via Transfer Clients',
     subtitle: 'Some of the clients who entrusted us with their time.',
     prev: 'Previous',
     next: 'Next',
   },
   faq: {
     eyebrow: 'Frequently Asked Questions',
-    title: 'Everything you need to know',
+    title: 'Frequently Asked Questions About Private Transfers',
     subtitle: 'If you cannot find an answer to your question, our team is available 24/7.',
   },
   contact: {
     eyebrow: 'Contact',
-    title: 'Get in touch',
+    title: 'Contact Europe Via Transfer — Private Transfers & Chauffeur Services',
     subtitle: 'Available 24 hours a day for reservations and enquiries.',
     phone: 'Phone',
     email: 'Email',
@@ -257,7 +257,7 @@ export const en: Translation = {
     google: 'Google Business',
   },
   cta: {
-    title: 'Ready to book your next journey?',
+    title: 'Ready to Book Your Private Transfer with Europe Via Transfer?',
     subtitle: 'Contact us now and guarantee premium service for your transfer.',
     book: 'Reserve Transfer',
     call: 'Call',
